@@ -3,10 +3,23 @@ var pizza = {
     cheese: "mozzarella",
     sauce: "tomato"
 };
-
+//Methocd
 pizza.addToppings = function(){
-    console.log("Please add pepperoni and sausage");
-}
+    return "Please add pepperoni and sausage";
+};
 
-console.log(pizza.addToppings());
+//For my reference to make sure it is working
+// console.log(pizza);
+// console.log(pizza.addToppings);
 
+
+
+
+function orderPizza() {
+    console.log(pizza.crust);
+    console.log(pizza.cheese);
+    console.log(pizza.sauce);
+    console.log(pizza.addToppings());
+  }
+  
+orderPizza();
